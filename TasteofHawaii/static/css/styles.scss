@@ -1,0 +1,530 @@
+/* Palette */
+$sage: #95a352;
+$pea: #80971d;
+$sandy: #eeb485;
+$peachy: #dd8861;
+$golden: #E3AD37;
+$charcoal: #636363;
+$lightgray: #e8e8e8;
+
+/* Fonts */
+$inika: 'Inika', serif;
+$poppins: 'Poppins', sans-serif;
+
+/* Font sizes desktop*/
+$fs-heading: 65px;
+$fs-subheading: 60px;
+$fs-subsubheading: 35px;
+$fs-body: 18px;
+
+/* Font sizes mobile */
+$fs-mobile-heading: 55px;
+$fs-mobile-subheading: 50px;
+$fs-mobile-subsubheading: 25px;
+$fs-mobile-body: 16px;
+
+
+/* // .kalua {
+//     position: relative;
+// }
+// .kalua span {
+//     display: none;
+//     margin: 0;
+//     padding: 0;
+// }
+// .kalua:hover span {
+//     display: block;
+//     position: absolute;
+//     bottom: 100%;
+//     left: -250px;  
+// }
+// .kalua span img {
+//     width: 75%;
+//     object-fit: contain;
+//     border-radius: 10px;
+// } */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.container {
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+body {
+    background-color: $lightgray;
+    /* Top Navigation */
+    .navbar {
+        background: $sage;
+        box-shadow: 0 8px 32px 0 rgba(8, 8, 8, 0.37);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 100%;
+        .container {
+            .navbar-brand {
+                font-family: $inika;
+               img {
+                height: 50px;
+                width: 50px;
+               }
+            }
+            /* from restaurant dashboard */
+            .dashheader {
+                color: white;
+                margin-top: 10px;
+            }
+
+            .nav-link {
+                color: $lightgray;
+                font-family: $inika;
+                font-size: $fs-body;
+            }
+    
+            .nav-link:hover {
+                color: $sandy;
+            }
+        
+            .btn-order {
+                background-color: $golden;
+                border: none;
+                font-size: $fs-body;
+            }
+        
+            .btn-order:hover {
+            
+                background-color: $sandy;
+            }
+            
+            .btn-order a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .navbar-toggler {
+                border: none;
+                
+                .hamburger {
+                
+                    i {
+                        color: white;
+                    }
+
+                }
+            }  
+        }
+    }
+
+    section {
+        min-height: 100vh;
+    }
+
+    #hero {
+        margin-top: 4.5rem;
+    }
+
+    main {
+        .hero {
+            .container {
+                padding-top: 9rem;
+                text-align: center;
+                .index-header {
+                    h1 {
+                        font-family: $inika;
+                        font-weight: bold;
+                        font-size: $fs-mobile-heading;
+                        color: $golden;
+                        
+                    }
+                    .button {
+                        border: none;
+                        border-radius: 1rem;
+                        font-size: $fs-body;
+                        background-color: $sage;
+                        min-width: 8rem;
+                        min-height: 2rem;
+                        color: white;
+                  
+                    }
+
+                    .button:hover {
+                        background-color: $pea;
+                        box-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
+                    }
+                }
+                img {
+                    max-width: 15rem;
+                    margin-top: 6rem;   
+                }
+            }
+        }
+
+        .about {
+            .container {
+                padding-top: 9rem;
+                text-align: center;
+
+                h2 {
+                    margin-bottom: 1rem;
+                    font-family: $inika;
+                    font-size: $fs-mobile-subheading;
+                    color: $golden;
+                }
+             
+                p {
+                    font-family: $poppins;
+                    font-size: $fs-mobile-body;
+                    line-height: 1.5rem;
+                    color: $charcoal;
+                }
+
+                .button {
+                    border: none;
+                    border-radius: 1rem;
+                    font-size: $fs-body;
+                    background-color: $sage;
+                    min-width: 8rem;
+                    min-height: 2rem;
+                    color: white;
+              
+                }
+                .button:hover {
+                    background-color: $pea;
+                    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
+                }
+            }
+        }
+
+        .menu {
+            .container {
+                padding-top: 9rem;
+                text-align: center;
+
+                h2 {
+                    margin-bottom: 2rem;
+                    line-height: 1.5rem;
+                    font-family: $inika;
+                    font-size: $fs-mobile-subheading;
+                    color: $golden;
+                }
+
+                .sub-container {
+                    color: $charcoal;
+                    h5 {
+                        font-size: $fs-mobile-subsubheading;
+                        font-weight: bold;
+                        font-family: $inika;
+                        box-shadow: 0 .4rem $sage;
+                        margin-top: 2.5rem;
+                        margin-bottom: 2.5rem;
+                    }
+
+                    h6 {
+                       font-family: $inika;
+                       font-weight: bold;
+                    }
+
+                    p {
+                        font-family: $poppins;
+                        font-size: $fs-mobile-body;
+                    }
+                }
+            }
+        }
+
+        .cater {
+            .container {
+                padding-top: 9rem;
+                padding-bottom: 6rem;
+                .card {
+                    text-align: center;
+              
+                    margin-bottom: 145px;
+                    background-color: $sandy;
+                    h2 {
+                        font-family: $inika;
+                        font-size: $fs-mobile-heading;
+                        color: white;
+                    }
+                    p {
+                        font-family: $poppins;
+                        font-size: $fs-mobile-body;
+                        color: white;
+                    }
+                }
+                .image {
+                    margin-top: 100px;
+                    padding-top: 1rem;
+                    perspective: 1000px;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    transform-style: preserve-3d;
+                  }
+                  .image .img3 {
+                    position: relative;
+                    left: 63%;
+                    top:80%;
+                    height: 200px;
+                    width: 300px;
+                    margin-bottom: 5px;
+                    transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+                    box-shadow: -80px 60px 15px 2px rgba(0,0,0,0.5);
+                    transition: all .4s;
+                    transform-style: preserve-3d;
+                    border-radius: 10px;
+                    border: 5px solid $sandy;
+                  }
+
+                  .image .img2 {
+                    position: relative;
+                    left: 63%;
+                    top:80%;
+                    height: 200px;
+                    width: 300px;
+                    margin-bottom: 5px;
+                    transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+                    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+                    transition: all .4s;
+                    transform-style: preserve-3d;
+                    border-radius: 10px;
+                    border: 5px solid $sandy;
+                  }
+                  
+                  .image:hover img {
+                    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+                    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+                    left: 50%;
+                  }
+            }
+        }
+
+        .contact {
+            .container {
+                padding-top: 13rem;
+                padding-bottom: 2rem;
+                color: $charcoal;
+                .contact-details {
+                    h2 {
+                        font-family: $inika;
+                        font-size: $fs-mobile-subheading;
+                        color: $golden;
+                    }
+
+                    .list-unstyled {
+                    
+                        li {
+                            font-family: $poppins;
+                            
+                            
+                            span {
+                                font-family: $poppins;
+                                font-size: $fs-mobile-body;
+                            }
+                        }
+                        
+                    }
+                   
+                }
+
+                
+            
+            
+                .form-row {
+                   margin-top: 10px;
+                   justify-content: center;
+    
+                   .form-center {
+                        display: flex;
+                        flex-direction: row;
+                        width: 500px;
+    
+                        .btn {
+                            width: 100%;
+                        }
+              
+                   } 
+                }
+                
+                .btn-primary {
+                    margin-top: 30px;
+                    padding: .5rem 2rem;
+                    background-color: $golden;
+                    border: none;
+                }
+                .btn-primary:hover {
+                    background-color: $sandy;
+                }
+            }
+        }
+    }
+    .page-footer {
+        background-color: $charcoal;
+        box-shadow: 0 8px 8px 10px rgba(8, 8, 8, 0.37);
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        
+        .hours {
+            margin-top: 1rem;
+            text-align: center;
+            color: white;
+            h6 {
+                text-align: center;
+                font-family: $inika;
+                font-size: $fs-mobile-subsubheading;
+                color: $golden;
+            }
+            p {
+                line-height: .5rem;
+                font-family: $poppins;
+                font-size: $fs-mobile-body;
+            }
+        }
+
+        .footer-copyright {
+            text-align: center;
+
+            p {
+                font-family: $poppins;
+                font-size: $fs-mobile-body;
+                color: white;
+
+            }
+        }
+
+        .container {
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            .socials {
+                display: block;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-right: auto;
+                margin-left: auto;
+                width: 9em;
+              
+                a {
+                    margin-left: 30px;
+                    text-decoration: none;
+                  
+                    
+                    
+                    
+                    .button {
+                        background-color: $golden;
+                        border: none;
+                        min-height: 40px;
+                        min-width: 40px;
+                        border-radius: 50%;
+
+                        i {
+                            color: white;
+                        }
+                
+                    }
+
+                    .button:hover {
+                        background-color: $sandy;
+                        box-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
+
+
+.career-app {
+    .container {
+        padding-top: 9rem;
+        padding-bottom: 2rem;
+        color: $charcoal;
+        justify-content: center;
+        .career-header {
+            color: $charcoal;
+            margin-bottom: 20px;
+        }
+
+        .md-form {
+            input {
+                border-radius: 10px;
+            }
+            
+            #positions,
+            #startdate {
+                color: $charcoal;
+                border: none;
+
+            }
+            #startdate {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+          
+            
+        }
+    
+        .btn {
+            width: 100%;
+            margin-top: 30px;
+            background-color: $golden;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: $sandy;
+            
+        }
+    }
+}
+
+/* 
+@media (min-width: 768px){
+  
+
+    .image {
+        left: 29% !important;
+    }  
+}
+
+@media (min-width: 920px){
+
+    .image {
+        left: 32% !important;
+    }
+
+    
+} */
+
+
+/* @media (min-width: 1200px){
+
+
+
+    .image {
+        margin-top: 100px;
+        padding-top: 1rem;
+        perspective: 1000px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        transform-style: preserve-3d;
+      }
+      .image .img3 {
+        left: 25% !important;
+        height: 300px !important;
+        width: 500px !important;
+    }
+    .image .img2 {
+        left: 37% !important;
+        height: 300px !important;
+        width: 500px !important;
+    }
+      
+    .contact {
+        padding-top: 3.5rem !important;
+    }
+
+} */

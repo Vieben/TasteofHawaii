@@ -1,0 +1,412 @@
+/* Palette */
+/* Fonts */
+/* Font sizes desktop*/
+/* Font sizes mobile */
+/* // .kalua {
+//     position: relative;
+// }
+// .kalua span {
+//     display: none;
+//     margin: 0;
+//     padding: 0;
+// }
+// .kalua:hover span {
+//     display: block;
+//     position: absolute;
+//     bottom: 100%;
+//     left: -250px;  
+// }
+// .kalua span img {
+//     width: 75%;
+//     object-fit: contain;
+//     border-radius: 10px;
+// } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.container {
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+body {
+  background-color: #e8e8e8;
+  /* Top Navigation */
+}
+body .navbar {
+  background: #95a352;
+  box-shadow: 0 8px 32px 0 rgba(8, 8, 8, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+}
+body .navbar .container {
+  /* from restaurant dashboard */
+}
+body .navbar .container .navbar-brand {
+  font-family: "Inika", serif;
+}
+body .navbar .container .navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+body .navbar .container .dashheader {
+  color: white;
+  margin-top: 10px;
+}
+body .navbar .container .nav-link {
+  color: #e8e8e8;
+  font-family: "Inika", serif;
+  font-size: 18px;
+}
+body .navbar .container .nav-link:hover {
+  color: #eeb485;
+}
+body .navbar .container .btn-order {
+  background-color: #E3AD37;
+  border: none;
+  font-size: 18px;
+}
+body .navbar .container .btn-order:hover {
+  background-color: #eeb485;
+}
+body .navbar .container .btn-order a {
+  color: white;
+  text-decoration: none;
+}
+body .navbar .container .navbar-toggler {
+  border: none;
+}
+body .navbar .container .navbar-toggler .hamburger i {
+  color: white;
+}
+body section {
+  min-height: 100vh;
+}
+body #hero {
+  margin-top: 4.5rem;
+}
+body main .hero .container {
+  padding-top: 9rem;
+  text-align: center;
+}
+body main .hero .container .index-header h1 {
+  font-family: "Inika", serif;
+  font-weight: bold;
+  font-size: 55px;
+  color: #E3AD37;
+}
+body main .hero .container .index-header .button {
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: #95a352;
+  min-width: 8rem;
+  min-height: 2rem;
+  color: white;
+}
+body main .hero .container .index-header .button:hover {
+  background-color: #80971d;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .hero .container img {
+  max-width: 15rem;
+  margin-top: 6rem;
+}
+body main .about .container {
+  padding-top: 9rem;
+  text-align: center;
+}
+body main .about .container h2 {
+  margin-bottom: 1rem;
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #E3AD37;
+}
+body main .about .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #636363;
+}
+body main .about .container .button {
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: #95a352;
+  min-width: 8rem;
+  min-height: 2rem;
+  color: white;
+}
+body main .about .container .button:hover {
+  background-color: #80971d;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .menu .container {
+  padding-top: 9rem;
+  text-align: center;
+}
+body main .menu .container h2 {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #E3AD37;
+}
+body main .menu .container .sub-container {
+  color: #636363;
+}
+body main .menu .container .sub-container h5 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Inika", serif;
+  box-shadow: 0 0.4rem #95a352;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+body main .menu .container .sub-container h6 {
+  font-family: "Inika", serif;
+  font-weight: bold;
+}
+body main .menu .container .sub-container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body main .cater .container {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+body main .cater .container .card {
+  text-align: center;
+  margin-bottom: 145px;
+  background-color: #eeb485;
+}
+body main .cater .container .card h2 {
+  font-family: "Inika", serif;
+  font-size: 55px;
+  color: white;
+}
+body main .cater .container .card p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+body main .cater .container .image {
+  margin-top: 100px;
+  padding-top: 1rem;
+  perspective: 1000px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+}
+body main .cater .container .image .img3 {
+  position: relative;
+  left: 63%;
+  top: 80%;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 5px;
+  transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  box-shadow: -80px 60px 15px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 5px solid #eeb485;
+}
+body main .cater .container .image .img2 {
+  position: relative;
+  left: 63%;
+  top: 80%;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 5px;
+  transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 5px solid #eeb485;
+}
+body main .cater .container .image:hover img {
+  transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  left: 50%;
+}
+body main .contact .container {
+  padding-top: 13rem;
+  padding-bottom: 2rem;
+  color: #636363;
+}
+body main .contact .container .contact-details h2 {
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #E3AD37;
+}
+body main .contact .container .contact-details .list-unstyled li {
+  font-family: "Poppins", sans-serif;
+}
+body main .contact .container .contact-details .list-unstyled li span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body main .contact .container .form-row {
+  margin-top: 10px;
+  justify-content: center;
+}
+body main .contact .container .form-row .form-center {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+body main .contact .container .form-row .form-center .btn {
+  width: 100%;
+}
+body main .contact .container .btn-primary {
+  margin-top: 30px;
+  padding: 0.5rem 2rem;
+  background-color: #E3AD37;
+  border: none;
+}
+body main .contact .container .btn-primary:hover {
+  background-color: #eeb485;
+}
+body .page-footer {
+  background-color: #636363;
+  box-shadow: 0 8px 8px 10px rgba(8, 8, 8, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+body .page-footer .hours {
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+}
+body .page-footer .hours h6 {
+  text-align: center;
+  font-family: "Inika", serif;
+  font-size: 25px;
+  color: #E3AD37;
+}
+body .page-footer .hours p {
+  line-height: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body .page-footer .footer-copyright {
+  text-align: center;
+}
+body .page-footer .footer-copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+body .page-footer .container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .page-footer .container .socials {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 9em;
+}
+body .page-footer .container .socials a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+body .page-footer .container .socials a .button {
+  background-color: #E3AD37;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+}
+body .page-footer .container .socials a .button i {
+  color: white;
+}
+body .page-footer .container .socials a .button:hover {
+  background-color: #eeb485;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.career-app .container {
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+  color: #636363;
+  justify-content: center;
+}
+.career-app .container .career-header {
+  color: #636363;
+  margin-bottom: 20px;
+}
+.career-app .container .md-form input {
+  border-radius: 10px;
+}
+.career-app .container .md-form #positions,
+.career-app .container .md-form #startdate {
+  color: #636363;
+  border: none;
+}
+.career-app .container .md-form #startdate {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.career-app .container .btn {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #E3AD37;
+  border: none;
+}
+.career-app .container .btn:hover {
+  background-color: #eeb485;
+}
+
+/* 
+@media (min-width: 768px){
+
+
+    .image {
+        left: 29% !important;
+    }  
+}
+
+@media (min-width: 920px){
+
+    .image {
+        left: 32% !important;
+    }
+
+
+} */
+/* @media (min-width: 1200px){
+
+
+
+    .image {
+        margin-top: 100px;
+        padding-top: 1rem;
+        perspective: 1000px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        transform-style: preserve-3d;
+      }
+      .image .img3 {
+        left: 25% !important;
+        height: 300px !important;
+        width: 500px !important;
+    }
+    .image .img2 {
+        left: 37% !important;
+        height: 300px !important;
+        width: 500px !important;
+    }
+
+    .contact {
+        padding-top: 3.5rem !important;
+    }
+
+} *//*# sourceMappingURL=styles.css.map */
