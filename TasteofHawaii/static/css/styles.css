@@ -90,6 +90,7 @@ body #hero {
 }
 body main .hero .container {
   padding-top: 9rem;
+  padding-bottom: 0.5rem;
   text-align: center;
 }
 body main .hero .container .index-header h1 {
@@ -113,12 +114,10 @@ body main .hero .container .index-header .button:hover {
 }
 body main .hero .container img {
   max-width: 300px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 body main .about .container {
   text-align: center;
-  padding-top: 9rem;
-  padding-bottom: 2rem;
 }
 body main .about .container h2 {
   margin-bottom: 1rem;
