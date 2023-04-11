@@ -1,0 +1,18 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_9_18)">
+<line y1="-1.5" x2="657" y2="-1.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 103 398)" stroke="#EEB485" stroke-opacity="0.75" stroke-width="3"/>
+<line y1="-1.5" x2="753.006" y2="-1.5" transform="matrix(-0.00398403 0.999992 0.999992 0.00398403 134 350)" stroke="#EEB485" stroke-opacity="0.75" stroke-width="3"/>
+<line y1="-1.5" x2="657" y2="-1.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 161 838)" stroke="#EEB485" stroke-opacity="0.75" stroke-width="3"/>
+<path d="M401.21 669.079L-187.249 -190.585L-273.532 -217.234L325.82 656.29L401.21 669.079Z" fill="#EEB485" fill-opacity="0.75"/>
+<path d="M648.735 1164.58L-110.566 60.1521L-208.532 16.766L564.549 1139.19L648.735 1164.58Z" fill="#EEB485" fill-opacity="0.75"/>
+<path d="M755.21 1459.08L166.751 599.415L80.4679 572.766L679.82 1446.29L755.21 1459.08Z" fill="#EEB485" fill-opacity="0.75"/>
+<path d="M2126 134.5L1084.26 125L1013.03 180.5L2072.36 189L2126 134.5Z" fill="#EEB485" fill-opacity="0.75"/>
+<line y1="-1.5" x2="182.808" y2="-1.5" transform="matrix(0.943641 0.33097 0.33097 -0.943641 1267.49 79)" stroke="#EEB485" stroke-opacity="0.75" stroke-width="3"/>
+<path d="M1043 118L1440 118" stroke="#EEB485" stroke-opacity="0.75" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0_9_18">
+<rect width="1440" height="1024" fill="white" transform="matrix(-1 0 0 1 1440 0)"/>
+</clipPath>
+</defs>
+</svg>
