@@ -157,7 +157,6 @@ body main .about .google-map iframe {
   position: absolute;
 }
 body main .menu {
-  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/Desktop3.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 6rem;
@@ -292,7 +291,6 @@ body main .cater .container .image:hover img {
   left: 50%;
 }
 body main .contact {
-  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 3rem;
@@ -309,8 +307,6 @@ body main .contact .container {
   grid-template-columns: repeat(2, 1fr);
 }
 body main .contact .container .contact-details {
-  background: #E3AD37;
-  border-radius: 10px;
   padding: 1rem;
 }
 body main .contact .container .contact-details .list-unstyled {
@@ -386,7 +382,7 @@ body main .contact .container .btn-primary:hover {
 .career-app {
   min-height: 100vh;
   padding-top: 9rem;
-  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg.svg");
+  padding-bottom: 3rem;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -502,18 +498,30 @@ body main .contact .container .btn-primary:hover {
   }
 }
 @media (max-width: 1000px) {
-  .contact .container,
   .career-app .container {
     grid-template-columns: repeat(1, 1fr) !important;
   }
-  .contact .container .contact-details,
   .career-app .container .contact-details {
     margin-top: 30px !important;
   }
-  .contact .container .form-center,
   .career-app .container .form-center {
     width: 100% !important;
     margin-top: 35px !important;
+  }
+  .career-app .container .form-center h2 {
+    padding-bottom: 1rem !important;
+    color: white !important;
+  }
+  .contact .container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .contact .container .contact-details {
+    background: #E3AD37 !important;
+    border-radius: 10px !important;
+    margin-top: 30px !important;
+  }
+  .contact .container .contact-details .form-center {
+    padding-top: 2.5rem !important;
   }
   .cater .container {
     min-height: 1250px !important;
