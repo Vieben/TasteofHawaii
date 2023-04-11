@@ -33,7 +33,7 @@
 }
 
 body {
-  background-color: #e8e8e8;
+  background: #e8e8e8;
   /* Top Navigation */
 }
 body .navbar {
@@ -82,15 +82,12 @@ body .navbar .container .navbar-toggler {
 body .navbar .container .navbar-toggler .hamburger i {
   color: white;
 }
-body section {
-  min-height: 100vh;
-}
 body #hero {
   margin-top: 4.5rem;
 }
 body main .hero .container {
-  padding-top: 9rem;
-  padding-bottom: 0.5rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 body main .hero .container .index-header h1 {
@@ -114,7 +111,10 @@ body main .hero .container .index-header .button:hover {
 }
 body main .hero .container img {
   max-width: 300px;
-  margin-top: 150px;
+  margin-top: 130px;
+}
+body main .about {
+  padding-top: 6rem;
 }
 body main .about .container {
   text-align: center;
@@ -145,25 +145,36 @@ body main .about .container .button:hover {
   background-color: #80971d;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-body main .about .container .google-map {
+body main .about .google-map {
   padding-bottom: 50%;
   position: relative;
 }
-body main .about .container .google-map iframe {
+body main .about .google-map iframe {
   height: 100%;
   width: 100%;
   left: 0;
   top: 0;
   position: absolute;
 }
-body main .menu .container {
-  padding-top: 9rem;
+body main .menu {
+  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/Desktop3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+body main .menu h2 {
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #dd8861;
+  text-align: center;
 }
 body main .menu .container .tabs-wrapper {
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 2px 1px 20px #ddd;
+  box-shadow: 2px 8px 10px #c3c2c2;
   display: flex;
+  background-color: rgb(223, 223, 223);
 }
 body main .menu .container .tabs-wrapper ul {
   list-style: none;
@@ -188,10 +199,20 @@ body main .menu .container .tabs-wrapper .nav-tabs li.tab {
 body main .menu .container .tabs-wrapper .nav-tabs .tab.is-active {
   background: #E3AD37;
   color: #fff;
+  box-shadow: 1px 2px 5px #636363;
+  border: none;
 }
 body main .menu .container .tabs-wrapper .tab-panel {
   display: none;
-  margin-left: 10px;
+  margin-left: 50px;
+}
+body main .menu .container .tabs-wrapper .tab-panel h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Inika", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #95a352;
 }
 body main .menu .container .tabs-wrapper .tab-panel p {
   line-height: 1.6;
@@ -213,9 +234,11 @@ body main .menu .button:hover {
   background-color: #80971d;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+body main .cater {
+  padding-top: 6rem;
+}
 body main .cater .container {
-  padding-top: 9rem;
-  padding-bottom: 6rem;
+  height: 800px;
 }
 body main .cater .container .card {
   text-align: center;
@@ -241,158 +264,258 @@ body main .cater .container .image {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  margin-left: 60%;
+  margin-left: 50%;
 }
 body main .cater .container .image .img3 {
-  max-height: 300px;
+  max-height: 250px;
   max-width: 500px;
-  margin-bottom: 5px;
-  transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  margin-bottom: 25px;
+  transform: rotateX(50deg) rotateZ(-80deg) translate3d(-100px, 0px, 80px);
   box-shadow: -80px 60px 15px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.4s;
   transform-style: preserve-3d;
+  border: 2px solid #eeb485;
 }
 body main .cater .container .image .img2 {
-  max-height: 300px;
+  max-height: 250px;
   max-width: 500px;
-  margin-bottom: 5px;
-  transform: rotateX(60deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  margin-top: 25px;
+  transform: rotateX(50deg) rotateZ(-80deg) translate3d(-100px, 0px, 80px);
   box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
   transition: all 0.4s;
   transform-style: preserve-3d;
+  border: 2px solid #eeb485;
 }
 body main .cater .container .image:hover img {
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   left: 50%;
 }
-body main .contact .container {
-  padding-top: 9rem;
-  padding-bottom: 2rem;
-  color: #636363;
+body main .contact {
+  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
 }
-body main .contact .container .contact-details h2 {
+body main .contact h2 {
   font-family: "Inika", serif;
   font-size: 50px;
   color: #E3AD37;
+  text-align: center;
+}
+body main .contact .container {
+  color: #636363;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body main .contact .container .contact-details {
+  background: #E3AD37;
+  border-radius: 10px;
+  padding: 1rem;
+}
+body main .contact .container .contact-details .list-unstyled {
+  line-height: 2.5rem;
 }
 body main .contact .container .contact-details .list-unstyled li {
   font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
 }
 body main .contact .container .contact-details .list-unstyled li span {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-body main .contact .container .form-row {
-  margin-top: 10px;
-  justify-content: center;
+body main .contact .container .contact-details .hours {
+  margin-top: 1.5rem;
+  color: #636363;
 }
-body main .contact .container .form-row .form-center {
-  display: flex;
-  flex-direction: row;
-  width: 500px;
-}
-body main .contact .container .form-row .form-center .btn {
-  width: 100%;
-}
-body main .contact .container .btn-primary {
-  margin-top: 30px;
-  padding: 0.5rem 2rem;
-  background-color: #E3AD37;
-  border: none;
-}
-body main .contact .container .btn-primary:hover {
-  background-color: #eeb485;
-}
-body .page-footer {
-  background-color: #636363;
-  box-shadow: 0 8px 8px 10px rgba(8, 8, 8, 0.37);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-body .page-footer .hours {
-  margin-top: 1rem;
-  text-align: center;
-  color: white;
-}
-body .page-footer .hours h6 {
-  text-align: center;
+body main .contact .container .contact-details .hours h6 {
   font-family: "Inika", serif;
   font-size: 25px;
-  color: #E3AD37;
+  color: #dd8861;
 }
-body .page-footer .hours p {
+body main .contact .container .contact-details .hours p {
   line-height: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-body .page-footer .footer-copyright {
-  text-align: center;
-}
-body .page-footer .footer-copyright p {
+body main .contact .container .contact-details .footer-copyright p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: white;
+  color: #636363;
+  margin-top: 1.5rem;
 }
-body .page-footer .container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-body .page-footer .container .socials {
-  display: block;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: auto;
-  margin-left: auto;
-  width: 9em;
-}
-body .page-footer .container .socials a {
-  margin-left: 30px;
+body main .contact .container .contact-details .socials a {
+  margin-right: 30px;
   text-decoration: none;
 }
-body .page-footer .container .socials a .button {
+body main .contact .container .contact-details .socials a .button {
+  background-color: #dd8861;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+}
+body main .contact .container .contact-details .socials a .button:hover {
+  background-color: #eeb485;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .contact .container .contact-details .socials hr {
+  width: 100%;
+  color: #636363;
+  border: 4px solid #636363;
+  margin-bottom: 10px;
+}
+body main .contact .container .form-center {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-right: 10px;
+  padding: 1rem;
+}
+body main .contact .container .btn-primary {
+  margin-top: 30px;
+  padding: 0.5rem 2rem;
+  background-color: #dd8861;
+  border: none;
+  width: 100%;
+}
+body main .contact .container .btn-primary:hover {
+  background-color: #eeb485;
+}
+
+.career-app {
+  min-height: 100vh;
+  padding-top: 9rem;
+  background-image: url("C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.career-app .container {
+  color: #636363;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.career-app .container .career-header {
+  color: #E3AD37;
+}
+.career-app .container .contact-details {
+  margin-top: 55px;
+  padding: 1rem;
+}
+.career-app .container .contact-details .list-unstyled {
+  line-height: 2.5rem;
+}
+.career-app .container .contact-details .list-unstyled li {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.career-app .container .contact-details .list-unstyled li span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.career-app .container .contact-details .hours {
+  margin-top: 1.5rem;
+  color: #636363;
+}
+.career-app .container .contact-details .hours h6 {
+  font-family: "Inika", serif;
+  font-size: 25px;
+  color: #E3AD37;
+}
+.career-app .container .contact-details .hours p {
+  line-height: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.career-app .container .contact-details .footer-copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #636363;
+  margin-top: 2.5rem;
+}
+.career-app .container .contact-details .socials a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+.career-app .container .contact-details .socials a .button {
   background-color: #E3AD37;
   border: none;
   min-height: 40px;
   min-width: 40px;
   border-radius: 50%;
 }
-body .page-footer .container .socials a .button i {
-  color: white;
-}
-body .page-footer .container .socials a .button:hover {
+.career-app .container .contact-details .socials a .button:hover {
   background-color: #eeb485;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-.career-app .container {
-  padding-top: 9rem;
-  padding-bottom: 2rem;
-  color: #636363;
-  justify-content: center;
+.career-app .container .contact-details .socials hr {
+  width: 100%;
+  color: #E3AD37;
+  border: 4px solid #E3AD37;
+  margin-bottom: 10px;
 }
-.career-app .container .career-header {
-  color: #636363;
-  margin-bottom: 20px;
+.career-app .container .form-center {
+  padding: 1rem;
+  margin-right: 50px;
 }
-.career-app .container .md-form input {
+.career-app .container .form-center .md-form input {
   border-radius: 10px;
 }
-.career-app .container .md-form #positions,
-.career-app .container .md-form #startdate {
+.career-app .container .form-center .md-form #positions,
+.career-app .container .form-center .md-form #startdate {
   color: #636363;
   border: none;
 }
-.career-app .container .md-form #startdate {
+.career-app .container .form-center .md-form #startdate {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.career-app .container .btn {
+.career-app .container .form-center .btn {
   width: 100%;
   margin-top: 30px;
   background-color: #E3AD37;
   border: none;
 }
-.career-app .container .btn:hover {
+.career-app .container .form-center .btn:hover {
   background-color: #eeb485;
+}
+
+@media (min-width: 1000px) {
+  .image {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .image .img3 {
+    margin-right: 50px !important;
+    max-height: 350px !important;
+    max-width: 600px !important;
+  }
+  .image .img2 {
+    margin-top: 0 !important;
+    max-height: 308px !important;
+    max-width: 600px !important;
+  }
+  .career-app .footer-copyright {
+    padding-top: 0rem !important;
+  }
+  .contact .footer-copyright {
+    padding-top: 0.2rem !important;
+  }
+}
+@media (max-width: 1000px) {
+  .contact .container,
+  .career-app .container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .contact .container .contact-details,
+  .career-app .container .contact-details {
+    margin-top: 30px !important;
+  }
+  .contact .container .form-center,
+  .career-app .container .form-center {
+    width: 100% !important;
+    margin-top: 35px !important;
+  }
+  .cater .container {
+    min-height: 1250px !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
