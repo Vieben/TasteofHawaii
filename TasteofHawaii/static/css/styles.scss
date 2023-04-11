@@ -212,7 +212,6 @@ body {
         }
 
         .menu {
-            background-image: url('C:/Users/faith/Desktop/TasteofHawaii/assets/img/Desktop3.svg');
             background-size: cover;
             background-repeat: no-repeat;
             padding-top: 6rem;
@@ -221,7 +220,7 @@ body {
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
-                color: $golden;
+                color: $peachy;
                 text-align: center;
             }
             .container {
@@ -372,7 +371,6 @@ body {
                 
 
         .contact {
-            background-image: url('C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg2.svg');
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 3rem;
@@ -388,8 +386,8 @@ body {
                 grid-template-columns: repeat(2, 1fr);
 
                 .contact-details {
-                 
                     padding: 1rem;
+                   
                     .list-unstyled {
                       line-height: 2.5rem;
                         li {
@@ -411,7 +409,7 @@ body {
                           
                             font-family: $inika;
                             font-size: $fs-mobile-subsubheading;
-                            color: $golden;
+                            color: $peachy;
                         }
                         p {
                             line-height: .5rem;
@@ -441,7 +439,7 @@ body {
                         
                         
                             .button {
-                                background-color: $golden;
+                                background-color: $peachy;
                                 border: none;
                                 min-height: 40px;
                                 min-width: 40px;
@@ -458,8 +456,8 @@ body {
                         }
                         hr {
                             width: 100%;
-                            color: $golden;
-                            border: 4px solid $golden;
+                            color: $charcoal;
+                            border: 4px solid $charcoal;
                             margin-bottom: 10px;
                             
                         }
@@ -482,7 +480,7 @@ body {
                    .btn-primary {
                     margin-top: 30px;
                     padding: .5rem 2rem;
-                    background-color: $golden;
+                    background-color: $peachy;
                     border: none;
                     width: 100%;
                 }
@@ -500,7 +498,7 @@ body {
 .career-app {
         min-height: 100vh;
         padding-top: 9rem;
-        background-image: url('C:/Users/faith/Desktop/TasteofHawaii/assets/img/careerbg.svg');
+        padding-bottom: 3rem;
         background-size: cover;
         background-repeat: no-repeat;
         .container {
@@ -659,7 +657,6 @@ body {
 }
 
 @media (max-width: 1000px) {
-    .contact,
     .career-app{
         .container{
             grid-template-columns: repeat(1, 1fr) !important;
@@ -668,6 +665,27 @@ body {
             }
             .form-center {
                 width: 100% !important;
+                margin-top: 35px !important;
+                
+                h2 {
+                    padding-bottom: 1rem !important;
+                    color: white !important;
+                }
+            }
+        }
+    }
+    
+
+    .contact {
+        .container {
+            grid-template-columns: repeat(1, 1fr) !important;
+            .contact-details {
+                background: $golden !important;
+                border-radius: 10px !important;
+                margin-top: 30px !important;
+                .form-center {
+                    padding-top: 2.5rem !important;
+                }
             }
         }
     }
