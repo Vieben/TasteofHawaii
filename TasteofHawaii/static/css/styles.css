@@ -166,7 +166,7 @@ body main .menu {
 body main .menu h2 {
   font-family: "Inika", serif;
   font-size: 50px;
-  color: #dd8861;
+  color: #E3AD37;
   text-align: center;
 }
 body main .menu .container .tabs-wrapper {
@@ -309,8 +309,6 @@ body main .contact .container {
   grid-template-columns: repeat(2, 1fr);
 }
 body main .contact .container .contact-details {
-  background: #E3AD37;
-  border-radius: 10px;
   padding: 1rem;
 }
 body main .contact .container .contact-details .list-unstyled {
@@ -331,7 +329,7 @@ body main .contact .container .contact-details .hours {
 body main .contact .container .contact-details .hours h6 {
   font-family: "Inika", serif;
   font-size: 25px;
-  color: #dd8861;
+  color: #E3AD37;
 }
 body main .contact .container .contact-details .hours p {
   line-height: 0.5rem;
@@ -349,7 +347,7 @@ body main .contact .container .contact-details .socials a {
   text-decoration: none;
 }
 body main .contact .container .contact-details .socials a .button {
-  background-color: #dd8861;
+  background-color: #E3AD37;
   border: none;
   min-height: 40px;
   min-width: 40px;
@@ -361,8 +359,8 @@ body main .contact .container .contact-details .socials a .button:hover {
 }
 body main .contact .container .contact-details .socials hr {
   width: 100%;
-  color: #636363;
-  border: 4px solid #636363;
+  color: #E3AD37;
+  border: 4px solid #E3AD37;
   margin-bottom: 10px;
 }
 body main .contact .container .form-center {
@@ -375,7 +373,7 @@ body main .contact .container .form-center {
 body main .contact .container .btn-primary {
   margin-top: 30px;
   padding: 0.5rem 2rem;
-  background-color: #dd8861;
+  background-color: #E3AD37;
   border: none;
   width: 100%;
 }
@@ -513,7 +511,6 @@ body main .contact .container .btn-primary:hover {
   .contact .container .form-center,
   .career-app .container .form-center {
     width: 100% !important;
-    margin-top: 35px !important;
   }
   .cater .container {
     min-height: 1250px !important;
