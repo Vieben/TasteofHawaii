@@ -92,6 +92,7 @@ body {
                 background-color: $golden;
                 border: none;
                 font-size: $fs-body;
+                margin-left: 10px;
             }
         
             .btn-order:hover {
@@ -125,6 +126,9 @@ body {
 
     main {
         .hero {
+            min-height: 100vh;
+            background-color: rgb(223, 223, 223);
+            padding-bottom: 10rem;
             .container {
                 padding-top: 6rem;
                 padding-bottom: 3rem;
@@ -145,6 +149,7 @@ body {
                         min-width: 8rem;
                         min-height: 2rem;
                         color: white;
+                        padding: .4rem;
                   
                     }
 
@@ -155,14 +160,14 @@ body {
                 }
                 img {
                     max-width: 300px;
-                    margin-top: 130px;
+                    margin-top: 200px;
                 }
             }
         }
 
         .about {
-            padding-top: 6rem;
             .container {
+                padding-top: 9rem;
                 text-align: center;
                 h2 {
                     margin-bottom: 1rem;
@@ -188,6 +193,8 @@ body {
                     min-width: 8rem;
                     min-height: .5rem;
                     color: white;
+                    padding-top: 6rem;
+                    padding-bottom: 3rem;
               
                 }
                 .button:hover {
@@ -197,12 +204,12 @@ body {
 
             }
             .google-map {
-                padding-bottom: 50%;
+                padding-bottom: 35%;
                 position: relative;
             }
            
            .google-map iframe {
-                height: 100%;
+                height: 50%;
                 width: 100%;
                 left: 0;
                 top: 0;
@@ -214,9 +221,7 @@ body {
         .menu {
             background-size: cover;
             background-repeat: no-repeat;
-            padding-top: 6rem;
-            padding-bottom: 3rem;
-          
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
@@ -224,6 +229,8 @@ body {
                 text-align: center;
             }
             .container {
+                padding-top: 8.5rem;
+                padding-bottom: 8rem;
                 .tabs-wrapper {
                     padding: 1rem;
                     border-radius: 0.5rem;
@@ -253,6 +260,7 @@ body {
                         font-weight: 500;
                         width: 160px;
                         height: 50px;
+                        color: $charcoal;
                         
                     }
                     .nav-tabs .tab.is-active {
@@ -266,7 +274,7 @@ body {
                     .tab-panel {
                         display: none;
                         margin-left: 50px;
-                    
+                        color: $charcoal;
 
                     }
 
@@ -307,9 +315,10 @@ body {
         }
 
         .cater {
-            padding-top: 6rem;
+            background-color: rgb(223, 223, 223);
             .container {
-                height: 800px;
+                
+                padding-top: 9rem;
                 .card {
                     text-align: center;
                     padding: 2rem;
@@ -371,19 +380,22 @@ body {
                 
 
         .contact {
+            min-height: 75vh;
             background-size: cover;
             background-repeat: no-repeat;
-            padding-bottom: 3rem;
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
                 color: $golden;
                 text-align: center;
+                padding-top: 8rem;
+               
             }
             .container {
                 color: $charcoal;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
+                padding-bottom: 4rem;
 
                 .contact-details {
                     padding: 1rem;
@@ -497,7 +509,7 @@ body {
     }
 .career-app {
         min-height: 100vh;
-        padding-top: 9rem;
+        padding-top: 20rem;
         padding-bottom: 3rem;
         background-size: cover;
         background-repeat: no-repeat;
@@ -627,6 +639,13 @@ body {
 }
 
 @media (min-width: 1000px) {
+
+    .index-header {
+        h1 {
+            font-size: 100px !important;
+            margin-bottom: 30px;
+        }
+    }
     
     .image {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -654,9 +673,19 @@ body {
             padding-top: .2rem !important;
         }
     }
+    .nav-link {
+        font-size: 25px !important;
+    }
+
+    .btn-order a {
+        font-size: 25px !important;
+    }
 }
 
 @media (max-width: 1000px) {
+    .google-map iframe {
+        height: 100% !important;
+    }
     .career-app{
         .container{
             grid-template-columns: repeat(1, 1fr) !important;
