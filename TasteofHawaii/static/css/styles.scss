@@ -126,12 +126,14 @@ body {
 
     main {
         .hero {
+            overflow-x: hidden;
             min-height: 100vh;
             background-color: rgb(223, 223, 223);
             padding-bottom: 10rem;
             .container {
-                padding-top: 6rem;
+                padding-top: 15rem;
                 padding-bottom: 3rem;
+                margin-left: 680px;
                 text-align: center;
                 .index-header {
                     h1 {
@@ -160,7 +162,7 @@ body {
                 }
                 img {
                     max-width: 300px;
-                    margin-top: 200px;
+                    margin-top: 100px;
                 }
             }
         }
@@ -221,7 +223,6 @@ body {
         .menu {
             background-size: cover;
             background-repeat: no-repeat;
-            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
@@ -315,72 +316,50 @@ body {
         }
 
         .cater {
-            background-color: rgb(223, 223, 223);
-            .container {
-                
-                padding-top: 9rem;
-                .card {
-                    text-align: center;
-                    padding: 2rem;
-                    margin-bottom: 145px;
-                    background-color: $sandy;
-                    h2 {
-                        font-family: $inika;
-                        font-size: $fs-mobile-heading;
-                        color: white;
-                    }
-                    p {
-                        font-family: $poppins;
-                        font-size: $fs-mobile-body;
-                        color: white;
-                    }
+            padding-bottom: 8rem;
+            padding-top: 5rem;
+            .article {
+                text-align: center;
+                padding: 2rem;
+                background-color: $sage;
+                width: 100%;
+                h2 {
+                    font-family: $inika;
+                    font-size: $fs-mobile-heading;
+                    color: white;
                 }
-                .image {
-                    margin-top: 400px;
-                    perspective: 1000px;
-                    transform: translate(-50%, -50%);
-                    transform-style: preserve-3d;
-                    display: grid;
-                    grid-template-rows: repeat(2, 1fr);
-                    justify-content: center;
-                    margin-left: 50%;
-                    .img3 {
-                        max-height: 250px;
-                        max-width: 500px;
-                        margin-bottom: 25px;
-                        transform: rotateX(50deg) rotateZ(-80deg) translate3d(-100px, 0px, 80px);
-                        box-shadow: -80px 60px 15px 2px rgba(0,0,0,0.5);
-                        transition: all .4s;
-                        transform-style: preserve-3d;
-                        border: 2px solid $sandy;
-                      
+                p {
+                    font-family: $poppins;
+                    font-size: $fs-mobile-body;
+                    color: white;
+                }
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+             
+                .column {
+                    flex: 25%;
+                    margin-top: 20px;
+                    .overlay {
+                        // background-color: black;
+                        img {
+                            width: 100%;
+                            
+                          
+                        }
                     }
     
-                    .img2 {
-                        max-height: 250px;
-                        max-width: 500px;
-                        margin-top: 25px;
-                        transform: rotateX(50deg) rotateZ(-80deg) translate3d(-100px, 0px, 80px);
-                        box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
-                        transition: all .4s;
-                        transform-style: preserve-3d;
-                        border: 2px solid $sandy;
-                
+                    img:hover {
+    
                     }
-
-                   
                 }
-                .image:hover img {
-                    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
-                    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
-                    left: 50%;
-                  }
             }
+
         }   
                 
 
         .contact {
-            min-height: 75vh;
             background-size: cover;
             background-repeat: no-repeat;
             h2 {
@@ -392,10 +371,10 @@ body {
                
             }
             .container {
+                padding-bottom: 5rem;
                 color: $charcoal;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                padding-bottom: 4rem;
 
                 .contact-details {
                     padding: 1rem;
@@ -642,7 +621,7 @@ body {
 
     .index-header {
         h1 {
-            font-size: 100px !important;
+            font-size: 150px !important;
             margin-bottom: 30px;
         }
     }
@@ -721,6 +700,7 @@ body {
     .cater {
         .container {
             min-height: 1250px !important;
+            
         }
     }
 }
