@@ -1,0 +1,530 @@
+/* Palette */
+/* Fonts */
+/* Font sizes desktop*/
+/* Font sizes mobile */
+/* // .kalua {
+//     position: relative;
+// }
+// .kalua span {
+//     display: none;
+//     margin: 0;
+//     padding: 0;
+// }
+// .kalua:hover span {
+//     display: block;
+//     position: absolute;
+//     bottom: 100%;
+//     left: -250px;  
+// }
+// .kalua span img {
+//     width: 75%;
+//     object-fit: contain;
+//     border-radius: 10px;
+// } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.container {
+  padding: 0 2.5rem 0 2.5rem;
+}
+
+body {
+  background: #e8e8e8;
+  /* Top Navigation */
+}
+body .navbar {
+  background: #95a352;
+  box-shadow: 0 8px 32px 0 rgba(8, 8, 8, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+}
+body .navbar .container {
+  /* from restaurant dashboard */
+}
+body .navbar .container .navbar-brand {
+  font-family: "Inika", serif;
+}
+body .navbar .container .navbar-brand h2 {
+  color: #e8e8e8;
+  margin-top: 10px;
+}
+body .navbar .container .dashheader {
+  color: white;
+  margin-top: 10px;
+}
+body .navbar .container .nav-link {
+  color: #e8e8e8;
+  font-family: "Inika", serif;
+  font-size: 18px;
+}
+body .navbar .container .nav-link:hover {
+  color: #eeb485;
+}
+body .navbar .container .btn-order {
+  background-color: #E3AD37;
+  border: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+body .navbar .container .btn-order:hover {
+  background-color: #eeb485;
+}
+body .navbar .container .btn-order a {
+  color: white;
+  text-decoration: none;
+}
+body .navbar .container .navbar-toggler {
+  border: none;
+}
+body .navbar .container .navbar-toggler .hamburger i {
+  color: white;
+}
+body #hero {
+  margin-top: 4.5rem;
+}
+body main .hero {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: rgb(223, 223, 223);
+  padding-bottom: 10rem;
+}
+body main .hero .container {
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  margin-left: 680px;
+  text-align: center;
+}
+body main .hero .container .index-header h1 {
+  font-family: "Inika", serif;
+  font-weight: bold;
+  font-size: 55px;
+  color: #E3AD37;
+}
+body main .hero .container .index-header .button {
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: #95a352;
+  min-width: 8rem;
+  min-height: 2rem;
+  color: white;
+  padding: 0.4rem;
+}
+body main .hero .container .index-header .button:hover {
+  background-color: #80971d;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .hero .container img {
+  max-width: 300px;
+  margin-top: 100px;
+}
+body main .about .container {
+  padding-top: 9rem;
+  text-align: center;
+}
+body main .about .container h2 {
+  margin-bottom: 1rem;
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #E3AD37;
+}
+body main .about .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 2rem;
+  color: #636363;
+  padding: 2rem;
+}
+body main .about .container .button {
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: #95a352;
+  min-width: 8rem;
+  min-height: 0.5rem;
+  color: white;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+body main .about .container .button:hover {
+  background-color: #80971d;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .about .google-map {
+  padding-bottom: 35%;
+  position: relative;
+}
+body main .about .google-map iframe {
+  height: 50%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+body main .menu {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body main .menu h2 {
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #dd8861;
+  text-align: center;
+}
+body main .menu .container {
+  padding-top: 8.5rem;
+  padding-bottom: 8rem;
+}
+body main .menu .container .tabs-wrapper {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 8px 10px #c3c2c2;
+  display: flex;
+  background-color: rgb(223, 223, 223);
+}
+body main .menu .container .tabs-wrapper ul {
+  list-style: none;
+  padding: 0;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+}
+body main .menu .container .tabs-wrapper .nav-tabs li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+body main .menu .container .tabs-wrapper .nav-tabs li.tab {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  color: #636363;
+}
+body main .menu .container .tabs-wrapper .nav-tabs .tab.is-active {
+  background: #E3AD37;
+  color: #fff;
+  box-shadow: 1px 2px 5px #636363;
+  border: none;
+}
+body main .menu .container .tabs-wrapper .tab-panel {
+  display: none;
+  margin-left: 50px;
+  color: #636363;
+}
+body main .menu .container .tabs-wrapper .tab-panel h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Inika", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #95a352;
+}
+body main .menu .container .tabs-wrapper .tab-panel p {
+  line-height: 1.6;
+}
+body main .menu .container .tabs-wrapper .tab-panel.is-active {
+  display: block;
+}
+body main .menu .button {
+  margin-top: 50px;
+  border: none;
+  border-radius: 1rem;
+  font-size: 18px;
+  background-color: #95a352;
+  min-width: 8rem;
+  min-height: 2rem;
+  color: white;
+}
+body main .menu .button:hover {
+  background-color: #80971d;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .cater {
+  padding-bottom: 8rem;
+  padding-top: 5rem;
+}
+body main .cater .article {
+  text-align: center;
+  padding: 2rem;
+  background-color: #95a352;
+  width: 100%;
+}
+body main .cater .article h2 {
+  font-family: "Inika", serif;
+  font-size: 55px;
+  color: white;
+}
+body main .cater .article p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+body main .cater .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .cater .row .column {
+  flex: 25%;
+  margin-top: 20px;
+}
+body main .cater .row .column .overlay img {
+  width: 100%;
+}
+body main .contact {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body main .contact h2 {
+  font-family: "Inika", serif;
+  font-size: 50px;
+  color: #E3AD37;
+  text-align: center;
+  padding-top: 8rem;
+}
+body main .contact .container {
+  padding-bottom: 5rem;
+  color: #636363;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body main .contact .container .contact-details {
+  padding: 1rem;
+}
+body main .contact .container .contact-details .list-unstyled {
+  line-height: 2.5rem;
+}
+body main .contact .container .contact-details .list-unstyled li {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+body main .contact .container .contact-details .list-unstyled li span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body main .contact .container .contact-details .hours {
+  margin-top: 1.5rem;
+  color: #636363;
+}
+body main .contact .container .contact-details .hours h6 {
+  font-family: "Inika", serif;
+  font-size: 25px;
+  color: #dd8861;
+}
+body main .contact .container .contact-details .hours p {
+  line-height: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+body main .contact .container .contact-details .footer-copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #636363;
+  margin-top: 1.5rem;
+}
+body main .contact .container .contact-details .socials a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+body main .contact .container .contact-details .socials a .button {
+  background-color: #dd8861;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+}
+body main .contact .container .contact-details .socials a .button:hover {
+  background-color: #eeb485;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+body main .contact .container .contact-details .socials hr {
+  width: 100%;
+  color: #636363;
+  border: 4px solid #636363;
+  margin-bottom: 10px;
+}
+body main .contact .container .form-center {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-right: 10px;
+  padding: 1rem;
+}
+body main .contact .container .btn-primary {
+  margin-top: 30px;
+  padding: 0.5rem 2rem;
+  background-color: #dd8861;
+  border: none;
+  width: 100%;
+}
+body main .contact .container .btn-primary:hover {
+  background-color: #eeb485;
+}
+
+.career-app {
+  min-height: 100vh;
+  padding-top: 20rem;
+  padding-bottom: 3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.career-app .container {
+  color: #636363;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.career-app .container .career-header {
+  color: #E3AD37;
+}
+.career-app .container .contact-details {
+  margin-top: 55px;
+  padding: 1rem;
+}
+.career-app .container .contact-details .list-unstyled {
+  line-height: 2.5rem;
+}
+.career-app .container .contact-details .list-unstyled li {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.career-app .container .contact-details .list-unstyled li span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.career-app .container .contact-details .hours {
+  margin-top: 1.5rem;
+  color: #636363;
+}
+.career-app .container .contact-details .hours h6 {
+  font-family: "Inika", serif;
+  font-size: 25px;
+  color: #E3AD37;
+}
+.career-app .container .contact-details .hours p {
+  line-height: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.career-app .container .contact-details .footer-copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #636363;
+  margin-top: 2.5rem;
+}
+.career-app .container .contact-details .socials a {
+  margin-right: 30px;
+  text-decoration: none;
+}
+.career-app .container .contact-details .socials a .button {
+  background-color: #E3AD37;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+}
+.career-app .container .contact-details .socials a .button:hover {
+  background-color: #eeb485;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.career-app .container .contact-details .socials hr {
+  width: 100%;
+  color: #E3AD37;
+  border: 4px solid #E3AD37;
+  margin-bottom: 10px;
+}
+.career-app .container .form-center {
+  padding: 1rem;
+  margin-right: 50px;
+}
+.career-app .container .form-center .md-form input {
+  border-radius: 10px;
+}
+.career-app .container .form-center .md-form #positions,
+.career-app .container .form-center .md-form #startdate {
+  color: #636363;
+  border: none;
+}
+.career-app .container .form-center .md-form #startdate {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.career-app .container .form-center .btn {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #E3AD37;
+  border: none;
+}
+.career-app .container .form-center .btn:hover {
+  background-color: #eeb485;
+}
+
+@media (min-width: 1000px) {
+  .index-header h1 {
+    font-size: 150px !important;
+    margin-bottom: 30px;
+  }
+  .image {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .image .img3 {
+    margin-right: 50px !important;
+    max-height: 350px !important;
+    max-width: 600px !important;
+  }
+  .image .img2 {
+    margin-top: 0 !important;
+    max-height: 308px !important;
+    max-width: 600px !important;
+  }
+  .career-app .footer-copyright {
+    padding-top: 0rem !important;
+  }
+  .contact .footer-copyright {
+    padding-top: 0.2rem !important;
+  }
+  .nav-link {
+    font-size: 25px !important;
+  }
+  .btn-order a {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .google-map iframe {
+    height: 100% !important;
+  }
+  .career-app .container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .career-app .container .contact-details {
+    margin-top: 30px !important;
+  }
+  .career-app .container .form-center {
+    width: 100% !important;
+    margin-top: 35px !important;
+  }
+  .career-app .container .form-center h2 {
+    padding-bottom: 1rem !important;
+    color: white !important;
+  }
+  .contact .container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .contact .container .contact-details {
+    background: #E3AD37 !important;
+    border-radius: 10px !important;
+    margin-top: 30px !important;
+  }
+  .contact .container .contact-details .form-center {
+    padding-top: 2.5rem !important;
+  }
+  .cater .container {
+    min-height: 1250px !important;
+  }
+}/*# sourceMappingURL=styles.css.map */

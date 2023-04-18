@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pinapple Grill</title>
+    <link rel="icon" href="assets/img/pineapple.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/styles.css"/>
+    <script src="https://kit.fontawesome.com/c833073a78.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body class="career-body">
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <h2>Taste of Hawaii</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse align-text-center" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#cater">Catering</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="careers.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn-order btn btn-primary"><a href="https://www.grubhub.com">Order Online</a></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+   
+    <section class="career-app" style="background-image: url('assets/img/careerbg.svg');">
+      <div class="container">
+        <div class="form-center">
+          <div class="career-header">
+            <h2>Join Our Ohana.</h2>
+          </div>
+          <form id="contact-form" name="contact-form" action="mailto:email@gmail.com" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-2">
+                          <label for="name" class="">First Name</label>
+                          <input type="text" id="firstname" name="firstname" class="form-control">
+                      </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="md-form mb-2">
+                        <label for="name" class="">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" class="form-control">
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-2">
+                        <label for="phone" class="">Your phone</label>
+                        <input type="text" id="phone" name="phone" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                      <div class="md-form mb-2">
+                          <label for="email" class="">Your email</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-2">
+      
+                        <select class="form-control" id="positions">
+                          <option disabledclass="dis">Select a position...</option>
+                          <option>Cashier</option>
+                          <option>Line Cook</option>
+                        </select>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-2">
+                      <label for="startdate">When can you start?</label>
+                      <input type="date" id="startdate" name="startdate">
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form">
+                          <label for="message">Your message</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      </div>
+                  </div>
+              </div>
+            
+              <div class="row">
+                <div class="text-md-left">
+                  <a class="btn btn-primary">Send</a>
+                </div>
+              </div>
+          </form> 
+        </div>
+        <div class="contact-details">
+          <ul class="list-unstyled">
+              <li><i class="fas fa-map-marker-alt"></i>
+                  <span>123 MADEUP RD. 
+                    CITY, ST 12345</span>
+              </li>
+      
+              <li><i class="fas fa-phone"></i>
+                  <span>Tel: (123)456-7890</span>
+              </li>
+      
+              <li><i class="fas fa-envelope"></i>
+                  <span>email@gmail.com</span>
+              </li>
+          </ul>
+          <div class="hours">
+            <h6>Hours</h6>
+            <p>Closed: Sunday & Monday</p>
+            <p>Open: Tuesday-Saturday</p>
+          </div>
+
+          <div class="socials">
+            <a href="https://www.facebook.com">
+              <button class="button"><i class="fa-brands fa-facebook fa-lg"></i></button>
+            </a>
+            <a href="https://www.instagram.com">
+              <button class="button"><i class="fa-brands fa-instagram fa-lg"></i></button>
+            </a>
+            <hr>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy;2023 Taste of Hawaii. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!-- <footer class="page-footer">
+      <div class="hours">
+        <h6>Hours</h6>
+        <p>Closed: Sunday & Monday</p>
+        <p>Open: Tuesday-Saturday</p>
+      </div>
+      <div class="footer-copyright">
+          <p>&copy;2023 Taste of Hawaii. All Rights Reserved.</p>
+      </div>
+      <div class="container">
+        <div class="socials">
+          <a href="https://www.facebook.com">
+            <button class="button"><i class="fa-brands fa-facebook fa-lg"></i></button>
+          </a>
+          <a href="https://www.instagram.com">
+            <button class="button"><i class="fa-brands fa-instagram fa-lg"></i></button>
+          </a>
+        </div>
+      </div>
+    </footer> -->
+  </body>
+</html>
+
+
+
