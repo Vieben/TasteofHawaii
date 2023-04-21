@@ -55,6 +55,7 @@ $fs-mobile-body: 16px;
 }
 
 body {
+    overflow-x: hidden;
     background: $lightgray;
     /* Top Navigation */
     .navbar {
@@ -126,8 +127,7 @@ body {
 
     main {
         .hero {
-            overflow-x: hidden;
-            min-height: 85vh;
+            min-height: 75vh;
             background-color: rgb(223, 223, 223);
             padding-bottom: 10rem;
             .container {
@@ -162,7 +162,7 @@ body {
                     }
                 }
                 img {
-                    max-width: 300px;
+                    width: 100vw;
                     margin-top: 100px;
                 }
             }
@@ -171,6 +171,7 @@ body {
         .about {
             .container {
                 padding-top: 9rem;
+                padding-bottom: 9rem;
                 text-align: center;
                 h2 {
                     margin-bottom: 1rem;
@@ -220,19 +221,48 @@ body {
                 
             }
         }
+        .food-pics {
+            padding-bottom: 9rem;
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                min-width: 100%;
+                
+                .column {
+                    flex: 15%;
+                    margin: 0;
+                    padding: 0;
+                    .overlay {
+                        background-color: black;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            opacity: 50%;
+                           
+                        }
+                    }
+
+                    img:hover {
+                        opacity: 100%;
+                        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+
+        }
 
         .menu {
+            padding-top: 8.5rem;
+            padding-bottom: 9rem;
             background-size: cover;
             background-repeat: no-repeat;
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
-                color: $peachy;
+                color: $sage;
                 text-align: center;
             }
             .container {
-                padding-top: 8.5rem;
-                padding-bottom: 8rem;
                 .tabs-wrapper {
                     padding: 1rem;
                     border-radius: 0.5rem;
@@ -317,8 +347,8 @@ body {
         }
 
         .cater {
-            padding-bottom: 8rem;
-            padding-top: 5rem;
+            padding-bottom: 9rem;
+            padding-top: 9rem;
             .article {
                 text-align: center;
                 padding: 2rem;
@@ -338,15 +368,19 @@ body {
             .row {
                 display: flex;
                 flex-wrap: wrap;
-                border: 20px solid $lightgray;
+                min-width: 100%;
+                
                 .column {
                     flex: 15%;
-                  
+                    margin: 0;
+                    padding: 0;
                     .overlay {
                         background-color: black;
                         img {
                             width: 100%;
+                            height: 100%;
                             opacity: 50%;
+                           
                         }
                     }
 
@@ -356,7 +390,6 @@ body {
                     }
                 }
             }
-
         }   
                 
 
@@ -379,7 +412,7 @@ body {
 
                 .contact-details {
                     padding: 1rem;
-                   
+                    margin-top: 10px;
                     .list-unstyled {
                       line-height: 2.5rem;
                         li {
@@ -409,16 +442,6 @@ body {
                             font-size: $fs-mobile-body;
                         }
                     }
-            
-                    .footer-copyright {
-                       
-                        p {
-                            font-family: $poppins;
-                            font-size: $fs-mobile-body;
-                            color: $charcoal;
-                            margin-top: 1.5rem;
-                        }
-                    }
 
                     .socials {
                         
@@ -431,6 +454,8 @@ body {
                         
                         
                             .button {
+                                margin-top: 15px;
+                                margin-bottom: 48px;
                                 background-color: $peachy;
                                 border: none;
                                 min-height: 40px;
@@ -440,7 +465,7 @@ body {
                             }
     
                             .button:hover {
-                                background-color: $sandy;
+                                background-color: $golden;
                                 box-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
                             }
     
@@ -448,9 +473,9 @@ body {
                         }
                         hr {
                             width: 100%;
-                            color: $charcoal;
-                            border: 4px solid $charcoal;
-                            margin-bottom: 10px;
+                            color: $golden;
+                            border: 4px solid $golden;
+                           
                             
                         }
                     }
@@ -477,7 +502,7 @@ body {
                     width: 100%;
                 }
                 .btn-primary:hover {
-                    background-color: $sandy;
+                    background-color: $golden;
                 }
 
                 }
@@ -485,8 +510,50 @@ body {
             }
     
         }
+        .page-footer {
+            background-color: $sage;
+            display: flex;
+            flex-direction: column;
+            min-height: 25vh;
+            
+            .row {
+                .col {
+                    margin-top: 50px;
 
-    }
+                    .sec-nav {
+                        justify-content: center;
+                        list-style: none;
+                        display: flex;
+                        li {
+                           color: $lightgray;
+                        
+                        }
+                        a {
+                            text-decoration: none;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            color: $lightgray;
+                            font-size: 24px;
+                        }
+                        a:hover {
+                            color: $sandy;
+                        }
+                    }
+                    p {
+                        text-align: center;
+                        font-family: $poppins;
+                        font-size: $fs-mobile-body;
+                        color: $lightgray;
+                        margin-top: 2.5rem;
+                        font-size: 16px;
+                        margin-left: 10px;
+                        
+                    }
+                }
+            }
+        }
+
+}
 .career-app {
         min-height: 100vh;
         padding-top: 20rem;
