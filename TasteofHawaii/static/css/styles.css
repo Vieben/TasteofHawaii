@@ -155,17 +155,6 @@ body main .about .container .button:hover {
   background-color: #80971d;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-body main .about .google-map {
-  padding-bottom: 35%;
-  position: relative;
-}
-body main .about .google-map iframe {
-  height: 50%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: absolute;
-}
 body main .food-pics {
   padding-bottom: 9rem;
 }
@@ -194,13 +183,11 @@ body main .food-pics .row .column img:hover {
 body main .menu {
   padding-top: 8.5rem;
   padding-bottom: 9rem;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 body main .menu h2 {
   font-family: "Inika", serif;
   font-size: 50px;
-  color: #95a352;
+  color: #E3AD37;
   text-align: center;
 }
 body main .menu .container .tabs-wrapper {
@@ -271,7 +258,7 @@ body main .menu .button:hover {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 body main .cater {
-  padding-bottom: 9rem;
+  padding-bottom: 18rem;
   padding-top: 9rem;
 }
 body main .cater .article {
@@ -312,90 +299,93 @@ body main .cater .row .column img:hover {
   opacity: 100%;
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
 }
-body main .contact {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-body main .contact h2 {
+body main .contact .row-top .title-container h2 {
   font-family: "Inika", serif;
   font-size: 50px;
   color: #E3AD37;
   text-align: center;
-  padding-top: 8rem;
 }
-body main .contact .container {
-  padding-bottom: 5rem;
-  color: #636363;
+body main .contact .row-bottom {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-body main .contact .container .contact-details {
-  padding: 1rem;
-  margin-top: 10px;
+body main .contact .row-bottom .contact-details {
+  max-width: 300px;
+  margin-left: 10%;
 }
-body main .contact .container .contact-details .list-unstyled {
+body main .contact .row-bottom .contact-details .list-unstyled {
   line-height: 2.5rem;
 }
-body main .contact .container .contact-details .list-unstyled li {
+body main .contact .row-bottom .contact-details .list-unstyled li {
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
 }
-body main .contact .container .contact-details .list-unstyled li span {
+body main .contact .row-bottom .contact-details .list-unstyled li span {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-body main .contact .container .contact-details .hours {
+body main .contact .row-bottom .contact-details .hours {
   margin-top: 1.5rem;
   color: #636363;
 }
-body main .contact .container .contact-details .hours h6 {
+body main .contact .row-bottom .contact-details .hours h6 {
   font-family: "Inika", serif;
   font-size: 25px;
   color: #dd8861;
 }
-body main .contact .container .contact-details .hours p {
+body main .contact .row-bottom .contact-details .hours p {
   line-height: 0.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
 }
-body main .contact .container .contact-details .socials a {
+body main .contact .row-bottom .contact-details .socials a {
   margin-right: 30px;
   text-decoration: none;
 }
-body main .contact .container .contact-details .socials a .button {
+body main .contact .row-bottom .contact-details .socials a .button {
   margin-top: 15px;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   background-color: #dd8861;
   border: none;
   min-height: 40px;
   min-width: 40px;
   border-radius: 50%;
 }
-body main .contact .container .contact-details .socials a .button:hover {
+body main .contact .row-bottom .contact-details .socials a .button:hover {
   background-color: #E3AD37;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-body main .contact .container .contact-details .socials hr {
+body main .contact .row-bottom .contact-details .socials hr {
   width: 100%;
   color: #E3AD37;
   border: 4px solid #E3AD37;
 }
-body main .contact .container .form-center {
+body main .contact .row-bottom .form-center {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin-right: 10px;
-  padding: 1rem;
+  max-width: 300px;
 }
-body main .contact .container .btn-primary {
+body main .contact .row-bottom .btn-primary {
   margin-top: 30px;
   padding: 0.5rem 2rem;
   background-color: #dd8861;
   border: none;
   width: 100%;
 }
-body main .contact .container .btn-primary:hover {
+body main .contact .row-bottom .btn-primary:hover {
   background-color: #E3AD37;
+}
+body main .contact .row-bottom .map {
+  margin-left: 10%;
+}
+body main .contact .row-bottom .map .map iframe {
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 body .page-footer {
   background-color: #95a352;

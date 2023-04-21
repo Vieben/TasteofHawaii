@@ -207,19 +207,6 @@ body {
                 }
 
             }
-            .google-map {
-                padding-bottom: 35%;
-                position: relative;
-            }
-           
-           .google-map iframe {
-                height: 50%;
-                width: 100%;
-                left: 0;
-                top: 0;
-                position: absolute;
-                
-            }
         }
         .food-pics {
             padding-bottom: 9rem;
@@ -254,12 +241,11 @@ body {
         .menu {
             padding-top: 8.5rem;
             padding-bottom: 9rem;
-            background-size: cover;
-            background-repeat: no-repeat;
+        
             h2 {
                 font-family: $inika;
                 font-size: $fs-mobile-subheading;
-                color: $sage;
+                color: $golden;
                 text-align: center;
             }
             .container {
@@ -347,7 +333,7 @@ body {
         }
 
         .cater {
-            padding-bottom: 9rem;
+            padding-bottom: 18rem;
             padding-top: 9rem;
             .article {
                 text-align: center;
@@ -394,25 +380,29 @@ body {
                 
 
         .contact {
-            background-size: cover;
-            background-repeat: no-repeat;
-            h2 {
-                font-family: $inika;
-                font-size: $fs-mobile-subheading;
-                color: $golden;
-                text-align: center;
-                padding-top: 8rem;
-               
-            }
-            .container {
-                padding-bottom: 5rem;
-                color: $charcoal;
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
 
+            .row-top {
+                .title-container {
+                    h2 {
+                        font-family: $inika;
+                        font-size: $fs-mobile-subheading;
+                        color: $golden;
+                        text-align: center;
+                        
+                       
+                    }
+                }
+            }
+            .row-bottom {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-top: 5%;
+                margin-bottom: 5%;
                 .contact-details {
-                    padding: 1rem;
-                    margin-top: 10px;
+                    max-width: 300px;
+                    margin-left: 10%;
                     .list-unstyled {
                       line-height: 2.5rem;
                         li {
@@ -426,7 +416,7 @@ body {
                         }
                         
                     }
-
+    
                     .hours {
                         margin-top: 1.5rem;
                         color: $charcoal;
@@ -442,7 +432,7 @@ body {
                             font-size: $fs-mobile-body;
                         }
                     }
-
+    
                     .socials {
                         
                   
@@ -455,7 +445,7 @@ body {
                         
                             .button {
                                 margin-top: 15px;
-                                margin-bottom: 48px;
+                                margin-bottom: 60px;
                                 background-color: $peachy;
                                 border: none;
                                 min-height: 40px;
@@ -481,7 +471,7 @@ body {
                     }
                    
                 }
-
+    
                 
             
             
@@ -489,10 +479,9 @@ body {
                 .form-center {
                     display: flex;
                     flex-direction: row;
-                    width: 100%;
-                    margin-right: 10px;
-                    padding: 1rem;
-              
+                    max-width: 300px;
+                 
+                
                    }
                    .btn-primary {
                     margin-top: 30px;
@@ -504,12 +493,22 @@ body {
                 .btn-primary:hover {
                     background-color: $golden;
                 }
-
-                }
-                
-            }
     
+                .map {
+                    margin-left: 10%;
+                    .map iframe {
+                            height: 100%;
+                            left: 0;
+                            top: 0;
+                        
+                            
+                    }
+                }
+            }
+                
         }
+    
+    }
         .page-footer {
             background-color: $sage;
             display: flex;
